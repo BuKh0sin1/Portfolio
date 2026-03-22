@@ -143,13 +143,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #b9a281;
+  color:  --branding-color: #008000;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color:  --secondary-color: #b9a281;
 }
 
 
