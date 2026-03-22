@@ -89,7 +89,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   border-radius: 4px;
   color: white;
   text-decoration: none;
