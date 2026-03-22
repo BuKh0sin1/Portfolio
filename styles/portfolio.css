@@ -154,11 +154,11 @@ nav li.active a {
 
 
 a {
-    color: #b9a281;
+    color: #008000;
 }
 
 a:hover {
-    color: #008000;
+    color: #b9a281;
 }
 
 footer {
