@@ -37,34 +37,52 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">
-          <img
-            src="images/logo.png"
-            class="logo d-none d-md-block"
-            alt="Khanyi Logo"
-          />
-          <img
-            src="images/logo-small.jpg"
-            class="logo d-block d-md-none"
-            alt="Khanyi Logo"
-          />
-        </a>
-        <ul>
-          <li class="active">
-            <a href="/" title="Homepage"> Home</a>
-          </li>
-          <li>
-            <a href="/about" title="About Khanyi"> About</a>
-          </li>
-          <li>
-            <a href="/work" title="Projects"> Work</a>
-          </li>
-          <li>
-            <a href="/contact" title="Contact Khanyi"> Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a href="/" title="Homepage">
+      <img
+        src="images/logo.png"
+        class="logo d-none d-md-block"
+        alt="Khanyi Logo"
+      />
+      <img
+        src="images/logo-small.jpg"
+        class="logo d-block d-md-none"
+        alt="Shecodes Logo"
+      />
+    </a>
+    
+    <!-- Hamburger button -->
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Collapsible menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/" title="Homepage">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about" title="About Khanyi">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/work" title="Projects">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact" title="Contact Khanyi">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </div>
     <div class="hero">
       <h1>Khanyi Gina</h1>
