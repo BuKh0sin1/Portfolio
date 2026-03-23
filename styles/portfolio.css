@@ -152,15 +152,6 @@ nav li.active a {
   color:  var(--secondary-color);
 }
 
-
-a {
-    color: #008000;
-}
-
-a:hover {
-    color: #b9a281;
-}
-
 footer {
   margin: 60px 0;
 }
