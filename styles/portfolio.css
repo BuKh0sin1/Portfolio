@@ -174,7 +174,11 @@ footer .beacons-link {
 
 footer .beacons-link:hover {
   color: var(--secondary-color);
+}
 
+.git-link {
+  color: var(--branding-color);
+}
 
  @media (max-width: 900px) {
   h1 {
