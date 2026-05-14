@@ -199,8 +199,10 @@ footer .beacons-link:hover {
     padding: 0;
     text-align: center;
   }
-   
-  .beacons-link {
+
+  footer .beacons-link {
     font-size: 20px;
   }
 }
+   
+ 
