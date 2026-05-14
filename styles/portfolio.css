@@ -180,6 +180,10 @@ footer .beacons-link:hover {
   color: var(--branding-color);
 }
 
+.git-hub:hover {
+  color: var(--secondary-color);
+}
+
  @media (max-width: 900px) {
   h1 {
     font-size: 44px;
