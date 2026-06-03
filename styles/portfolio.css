@@ -208,6 +208,18 @@ footer .beacons-link:hover {
     text-align: center;
   }
 
+    .col-lg-6:has(.about-image) {
+    order: -1;
+    width: 100%;
+  }
+
+  .about-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+
   footer .beacons-link {
     font-size: 20px;
   }
