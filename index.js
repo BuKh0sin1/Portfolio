@@ -1,7 +1,4 @@
-let challenge2Element = document.querySelector("#challenge-2");
-challenge2Element.innerHTML = "Khanyi Gina";
-
-new Typewriter("#challenge-3", {
+new Typewriter("#myname", {
   strings: "Khanyi Gina",
   autoStart: true,
   cursor: null,
