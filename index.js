@@ -6,6 +6,4 @@ new Typewriter("#myname", {
 });
 
 let heading = document.querySelector("#myname");
-heading.style.color = "black";
-heading.style.fontWeight = "bold";
-heading.style.fontFamily = "Playfair Display", serif";
+heading.classList.add("h1");
