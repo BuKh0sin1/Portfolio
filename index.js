@@ -2,11 +2,9 @@ new Typewriter("#myname", {
   strings: "Khanyi Gina",
   autoStart: true,
   cursor: null,
-  delay: 400, 
-  color: black, 
-  font-family: var(--heading-font-family), 
-  font-weight: bold,
+  delay: 400,
 });
 
 let heading = document.querySelector("#myname");
-heading.classList.add("h1");
+heading.style.color = "black";
+heading.style.fontWeight = "bold",
