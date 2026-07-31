@@ -20,7 +20,7 @@ h6 {
   font-weight: bold;
 }
 
-h1 {
+.username {
   font-size: 96px;
   line-height: 1.5;
   font-family: var(--heading-font-family);
