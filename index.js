@@ -1,7 +1,7 @@
 new Typewriter("#myname", {
   strings: "Khanyi Gina",
   autoStart: true,
-  cursor: null,
+  cursor: "✴",
   delay: 400,
 });
 
