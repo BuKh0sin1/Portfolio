@@ -5,5 +5,5 @@ new Typewriter("#myname", {
   delay: 400,
 });
 
-let heading = document.querySelector("#myname");
-heading.classList.add("h1");
+let headingElement = document.querySelector("#myname");
+headingElement.classList.add("h1");
