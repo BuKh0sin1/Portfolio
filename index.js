@@ -6,4 +6,4 @@ new Typewriter("#myname", {
 });
 
 let headingElement = document.querySelector("#myname");
-headingElement.classList.add("h1");
+headingElement.classList.add("username");
